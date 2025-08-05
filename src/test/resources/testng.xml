@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Tests Suite">
+    
+    <test name="User CRUD Tests">
+        <classes>
+            <class name="tests.UserCRUDTest">
+                <methods>
+                    <include name="testCompleteUserCRUDCycle"/>
+                    <include name="testCreateUser"/>
+                    <include name="testUpdateUser"/>
+                    <include name="testGetUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="User Negative Tests">
+        <classes>
+            <class name="tests.UserNegativeTest">
+                <methods>
+                    <include name="testGetNonExistentUser"/>
+                    <include name="testUpdateNonExistentUser"/>
+                    <include name="testDeleteNonExistentUser"/>
+                    <include name="testCreateUserWithInvalidData"/>
+                    <include name="testStatusCodeValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+</suite> 
