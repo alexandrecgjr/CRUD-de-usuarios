@@ -1,0 +1,6 @@
+Method: POST
+URI: https://reqres.in/api/users
+Headers: x-api-key=reqres-free-v1
+Accept=*/*
+Content-Type=application/json
+Body: {"name":"Maria Santos","job":"Analista de QA"}

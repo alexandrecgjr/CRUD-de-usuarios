@@ -1,0 +1,31 @@
+Status Code: 201
+Status Line: HTTP/1.1 201 Created
+Headers: Date=Tue, 05 Aug 2025 01:37:53 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=91
+Connection=keep-alive
+CF-RAY=96a29264688ee154-GIG
+Access-Control-Allow-Origin=*
+Etag=W/"5b-K1LtoFjTuzV6kqGYl2X3Eey9V3Q"
+Nel={"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Ratelimit-Limit=100
+Ratelimit-Policy=100;w=60
+Ratelimit-Remaining=98
+Ratelimit-Reset=60
+Referrer-Policy=strict-origin-when-cross-origin
+Report-To={"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=nskhpF5IWayY2%2BOR0ABykCQL%2FtmYJPLS2dJxiOR3U5A%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1754357873"}],"max_age":3600}
+Reporting-Endpoints=heroku-nel="https://nel.heroku.com/reports?s=nskhpF5IWayY2%2BOR0ABykCQL%2FtmYJPLS2dJxiOR3U5A%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1754357873"
+Via=1.1 heroku-router
+X-Content-Type-Options=nosniff
+X-Frame-Options=DENY
+X-Request-Id=cbb23a2c-ef00-6b02-781d-076b8cc76263
+X-Xss-Protection=1; mode=block
+cf-cache-status=DYNAMIC
+Server=cloudflare
+server-timing=cfL4;desc="?proto=TCP&rtt=22997&min_rtt=22959&rtt_var=4901&sent=7&recv=9&lost=0&retrans=0&sent_bytes=3104&recv_bytes=866&delivery_rate=187175&cwnd=252&unsent_bytes=0&cid=78ae8425ecb8ebe8&ts=559&x=0"
+Body: {
+    "name": "Ale Xandrinho",
+    "job": "testador",
+    "id": "438",
+    "createdAt": "2025-08-05T01:37:53.678Z"
+}

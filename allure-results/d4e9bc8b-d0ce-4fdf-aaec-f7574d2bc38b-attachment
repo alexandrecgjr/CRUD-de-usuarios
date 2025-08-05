@@ -1,0 +1,42 @@
+Status Code: 200
+Status Line: HTTP/1.1 200 OK
+Headers: Date=Tue, 05 Aug 2025 01:37:55 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Content-Encoding=gzip
+Access-Control-Allow-Origin=*
+etag=W/"152-u+PREu/p8Opn/uEvEGESR7Dst7c"
+Nel={"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Ratelimit-Limit=100
+Ratelimit-Policy=100;w=60
+Ratelimit-Remaining=94
+Ratelimit-Reset=37
+Referrer-Policy=strict-origin-when-cross-origin
+Report-To={"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=VFDTsGLKQLp5yAV0VfGgvAaDHUITBFcVjzeuxYeMo%2FM%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1754343760"}],"max_age":3600}
+Reporting-Endpoints=heroku-nel="https://nel.heroku.com/reports?s=VFDTsGLKQLp5yAV0VfGgvAaDHUITBFcVjzeuxYeMo%2FM%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1754343760"
+Via=1.1 heroku-router
+X-Content-Type-Options=nosniff
+X-Frame-Options=DENY
+X-Request-Id=5c7c0215-1197-5af7-19da-4674b7b9203f
+X-Xss-Protection=1; mode=block
+Age=3408
+Cache-Control=max-age=14400
+cf-cache-status=HIT
+Vary=Accept-Encoding
+Server=cloudflare
+CF-RAY=96a292737a2ecb1c-GIG
+server-timing=cfL4;desc="?proto=TCP&rtt=25060&min_rtt=21861&rtt_var=10483&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3103&recv_bytes=806&delivery_rate=197612&cwnd=252&unsent_bytes=0&cid=872bf2149a7b742a&ts=78&x=0"
+Body: {
+    "data": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}

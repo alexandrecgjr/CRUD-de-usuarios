@@ -1,0 +1,32 @@
+Status Code: 200
+Status Line: HTTP/1.1 200 OK
+Headers: Date=Tue, 05 Aug 2025 01:37:56 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Content-Encoding=gzip
+Access-Control-Allow-Origin=*
+Etag=W/"4f-yANkR08QslU/2s51HJNRyIpkOsg"
+Nel={"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Ratelimit-Limit=100
+Ratelimit-Policy=100;w=60
+Ratelimit-Remaining=88
+Ratelimit-Reset=57
+Referrer-Policy=strict-origin-when-cross-origin
+Report-To={"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=KRK3dlICbiLh8ZAQ%2F5BCFS0xJEDudvI1InJFhvyHHgE%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1754357876"}],"max_age":3600}
+Reporting-Endpoints=heroku-nel="https://nel.heroku.com/reports?s=KRK3dlICbiLh8ZAQ%2F5BCFS0xJEDudvI1InJFhvyHHgE%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1754357876"
+Via=1.1 heroku-router
+X-Content-Type-Options=nosniff
+X-Frame-Options=DENY
+X-Request-Id=c6cc6970-355b-a4ac-7696-9e410647ad78
+X-Xss-Protection=1; mode=block
+cf-cache-status=DYNAMIC
+Vary=Accept-Encoding
+Server=cloudflare
+CF-RAY=96a29279cdfcc802-GIG
+server-timing=cfL4;desc="?proto=TCP&rtt=24781&min_rtt=23546&rtt_var=9712&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3103&recv_bytes=866&delivery_rate=183470&cwnd=253&unsent_bytes=0&cid=741517ceefd1585e&ts=246&x=0"
+Body: {
+    "name": "Pedro Costa",
+    "job": "Tech Lead",
+    "updatedAt": "2025-08-05T01:37:56.886Z"
+}

@@ -1,0 +1,5 @@
+Method: GET
+URI: https://reqres.in/api/users/1
+Headers: x-api-key=reqres-free-v1
+Accept=*/*
+Content-Type=application/json

@@ -1,0 +1,31 @@
+Status Code: 201
+Status Line: HTTP/1.1 201 Created
+Headers: Date=Tue, 05 Aug 2025 01:37:56 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=96
+Connection=keep-alive
+CF-RAY=96a29275dc8dcb1c-GIG
+Access-Control-Allow-Origin=*
+Etag=W/"60-OhMR6d9JXLoP8MDqOqe9qZXLbbI"
+Nel={"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Ratelimit-Limit=100
+Ratelimit-Policy=100;w=60
+Ratelimit-Remaining=90
+Ratelimit-Reset=58
+Referrer-Policy=strict-origin-when-cross-origin
+Report-To={"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=KRK3dlICbiLh8ZAQ%2F5BCFS0xJEDudvI1InJFhvyHHgE%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1754357876"}],"max_age":3600}
+Reporting-Endpoints=heroku-nel="https://nel.heroku.com/reports?s=KRK3dlICbiLh8ZAQ%2F5BCFS0xJEDudvI1InJFhvyHHgE%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1754357876"
+Via=1.1 heroku-router
+X-Content-Type-Options=nosniff
+X-Frame-Options=DENY
+X-Request-Id=c3ee8d2b-81f9-bd72-aee0-18ada493c326
+X-Xss-Protection=1; mode=block
+cf-cache-status=DYNAMIC
+Server=cloudflare
+server-timing=cfL4;desc="?proto=TCP&rtt=23297&min_rtt=22936&rtt_var=6771&sent=5&recv=7&lost=0&retrans=0&sent_bytes=3104&recv_bytes=871&delivery_rate=188251&cwnd=252&unsent_bytes=0&cid=8ca56d07bf6ff957&ts=438&x=0"
+Body: {
+    "name": "Maria Santos",
+    "job": "Analista de QA",
+    "id": "438",
+    "createdAt": "2025-08-05T01:37:56.446Z"
+}
