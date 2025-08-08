@@ -29,4 +29,16 @@
         </classes>
     </test>
     
+    <test name="Cucumber BDD Tests">
+        <classes>
+            <class name="runners.CucumberTestRunner"/>
+        </classes>
+    </test>
+    
+    <test name="Cucumber Negative BDD Tests">
+        <classes>
+            <class name="runners.CucumberNegativeTestRunner"/>
+        </classes>
+    </test>
+    
 </suite> 
